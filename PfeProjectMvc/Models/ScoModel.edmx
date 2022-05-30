@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ScoModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ESP_ENSEIGNANT">
+          <Key>
+            <PropertyRef Name="ID_ENS" />
+          </Key>
+          <Property Name="ID_ENS" Type="varchar2" MaxLength="10" Nullable="false" />
+          <Property Name="NOM_ENS" Type="varchar2" MaxLength="100" />
+          <Property Name="TYPE_ENS" Type="varchar2" MaxLength="1" />
+          <Property Name="DATE_REC" Type="date" />
+          <Property Name="NIVEAU" Type="varchar2" MaxLength="2" />
+          <Property Name="DATE_SAISIE" Type="date" />
+          <Property Name="DATE_DERN_MODIF" Type="date" />
+          <Property Name="ETAT" Type="varchar2" MaxLength="1" />
+          <Property Name="OBSERVATION" Type="varchar2" MaxLength="300" />
+          <Property Name="PWD_ENS" Type="varchar2" MaxLength="150" />
+          <Property Name="PRENOM_ENS" Type="varchar2" MaxLength="30" />
+          <Property Name="CIN" Type="number" Precision="8" Scale="0" />
+          <Property Name="SEXE_ENS" Type="varchar2" MaxLength="1" />
+          <Property Name="ETAT_CIVIL_ENS" Type="varchar2" MaxLength="5" />
+          <Property Name="TEL1" Type="varchar2" MaxLength="11" />
+          <Property Name="TEL2" Type="varchar2" MaxLength="11" />
+          <Property Name="CNSS_ENS" Type="varchar2" MaxLength="20" />
+          <Property Name="DN_ENS" Type="date" />
+          <Property Name="DE_ENS" Type="date" />
+          <Property Name="DS_ENS" Type="date" />
+          <Property Name="IMAGE" Type="blob" />
+          <Property Name="CHEFCOMITE" Type="number" Precision="10" Scale="0" />
+          <Property Name="COMITE_ID_GRP" Type="number" Precision="10" Scale="0" />
+          <Property Name="FK_CMT" Type="number" Precision="10" Scale="0" />
+          <Property Name="TYPE_UP" Type="varchar2" MaxLength="1" />
+          <Property Name="UP" Type="varchar2" MaxLength="20" />
+          <Property Name="DATE_DEB_UP" Type="date" />
+          <Property Name="MAIL_ENS" Type="varchar2" MaxLength="50" />
+          <Property Name="CODE_GRADE_ENTREE" Type="varchar2" MaxLength="3" />
+          <Property Name="LIB_GRADE_ENTREE" Type="varchar2" MaxLength="300" />
+          <Property Name="CODE_GRADE_ACTUEL" Type="varchar2" MaxLength="4" />
+          <Property Name="LIB_GRADE_ACTUELLE" Type="varchar2" MaxLength="300" />
+          <Property Name="ORGANISME" Type="varchar2" MaxLength="1" />
+          <Property Name="PWD_INIT" Type="varchar2" MaxLength="10" />
+          <Property Name="CODE_DEPT" Type="varchar2" MaxLength="2" />
+          <Property Name="CHEF_DEPT" Type="varchar2" MaxLength="1" />
+          <Property Name="CODE_ENS_EDUSERV" Type="varchar2" MaxLength="10" />
+          <Property Name="NOM" Type="varchar2" MaxLength="30" />
+          <Property Name="PNOM" Type="varchar2" MaxLength="30" />
+          <Property Name="CODE_MAT" Type="varchar2" MaxLength="15" />
+          <Property Name="PHOTO2" Type="blob" />
+          <Property Name="DIPLOME" Type="varchar2" MaxLength="2" />
+          <Property Name="EDE_ROLE" Type="varchar2" MaxLength="255" />
+          <Property Name="COORDINATEUR_OPTS" Type="varchar2" MaxLength="1" />
+          <Property Name="CODE_OPTION" Type="varchar2" MaxLength="10" />
+          <Property Name="RESP_PI" Type="varchar2" MaxLength="1" />
+          <Property Name="RESP_STAGE" Type="varchar2" MaxLength="1" />
+          <Property Name="CODE_PI" Type="varchar2" MaxLength="10" />
+          <Property Name="CODE_STAGE" Type="varchar2" MaxLength="2" />
+          <Property Name="DATE_MODIFY_JWT_PWD" Type="date" />
+          <Property Name="PWD_JWT_ENSEIGNANT" Type="varchar2" MaxLength="100" />
+          <Property Name="ETAT_FROM_PE" Type="varchar2" MaxLength="2" />
+        </EntityType>
+        <EntityContainer Name="ScoModelStoreContainer">
+          <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" Schema="SCO" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ScoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ESP_ENSEIGNANT">
+          <Key>
+            <PropertyRef Name="ID_ENS" />
+          </Key>
+          <Property Name="ID_ENS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NOM_ENS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="TYPE_ENS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_REC" Type="DateTime" />
+          <Property Name="NIVEAU" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_SAISIE" Type="DateTime" />
+          <Property Name="DATE_DERN_MODIF" Type="DateTime" />
+          <Property Name="ETAT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="OBSERVATION" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="PWD_ENS" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="PRENOM_ENS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CIN" Type="Int32" />
+          <Property Name="SEXE_ENS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="ETAT_CIVIL_ENS" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="TEL1" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="TEL2" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="CNSS_ENS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DN_ENS" Type="DateTime" />
+          <Property Name="DE_ENS" Type="DateTime" />
+          <Property Name="DS_ENS" Type="DateTime" />
+          <Property Name="IMAGE" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="CHEFCOMITE" Type="Int32" />
+          <Property Name="COMITE_ID_GRP" Type="Int32" />
+          <Property Name="FK_CMT" Type="Int32" />
+          <Property Name="TYPE_UP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="UP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_DEB_UP" Type="DateTime" />
+          <Property Name="MAIL_ENS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_GRADE_ENTREE" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="LIB_GRADE_ENTREE" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_GRADE_ACTUEL" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="LIB_GRADE_ACTUELLE" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="ORGANISME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="PWD_INIT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_DEPT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="CHEF_DEPT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_ENS_EDUSERV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="NOM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="PNOM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_MAT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="PHOTO2" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="DIPLOME" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="EDE_ROLE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="COORDINATEUR_OPTS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_OPTION" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RESP_PI" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="RESP_STAGE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_PI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CODE_STAGE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_MODIFY_JWT_PWD" Type="DateTime" />
+          <Property Name="PWD_JWT_ENSEIGNANT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ETAT_FROM_PE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Sco_Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ScoModelStoreContainer" CdmEntityContainer="Sco_Entities">
+          <EntitySetMapping Name="ESP_ENSEIGNANT">
+            <EntityTypeMapping TypeName="ScoModel.ESP_ENSEIGNANT">
+              <MappingFragment StoreEntitySet="ESP_ENSEIGNANT">
+                <ScalarProperty Name="ID_ENS" ColumnName="ID_ENS" />
+                <ScalarProperty Name="NOM_ENS" ColumnName="NOM_ENS" />
+                <ScalarProperty Name="TYPE_ENS" ColumnName="TYPE_ENS" />
+                <ScalarProperty Name="DATE_REC" ColumnName="DATE_REC" />
+                <ScalarProperty Name="NIVEAU" ColumnName="NIVEAU" />
+                <ScalarProperty Name="DATE_SAISIE" ColumnName="DATE_SAISIE" />
+                <ScalarProperty Name="DATE_DERN_MODIF" ColumnName="DATE_DERN_MODIF" />
+                <ScalarProperty Name="ETAT" ColumnName="ETAT" />
+                <ScalarProperty Name="OBSERVATION" ColumnName="OBSERVATION" />
+                <ScalarProperty Name="PWD_ENS" ColumnName="PWD_ENS" />
+                <ScalarProperty Name="PRENOM_ENS" ColumnName="PRENOM_ENS" />
+                <ScalarProperty Name="CIN" ColumnName="CIN" />
+                <ScalarProperty Name="SEXE_ENS" ColumnName="SEXE_ENS" />
+                <ScalarProperty Name="ETAT_CIVIL_ENS" ColumnName="ETAT_CIVIL_ENS" />
+                <ScalarProperty Name="TEL1" ColumnName="TEL1" />
+                <ScalarProperty Name="TEL2" ColumnName="TEL2" />
+                <ScalarProperty Name="CNSS_ENS" ColumnName="CNSS_ENS" />
+                <ScalarProperty Name="DN_ENS" ColumnName="DN_ENS" />
+                <ScalarProperty Name="DE_ENS" ColumnName="DE_ENS" />
+                <ScalarProperty Name="DS_ENS" ColumnName="DS_ENS" />
+                <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+                <ScalarProperty Name="CHEFCOMITE" ColumnName="CHEFCOMITE" />
+                <ScalarProperty Name="COMITE_ID_GRP" ColumnName="COMITE_ID_GRP" />
+                <ScalarProperty Name="FK_CMT" ColumnName="FK_CMT" />
+                <ScalarProperty Name="TYPE_UP" ColumnName="TYPE_UP" />
+                <ScalarProperty Name="UP" ColumnName="UP" />
+                <ScalarProperty Name="DATE_DEB_UP" ColumnName="DATE_DEB_UP" />
+                <ScalarProperty Name="MAIL_ENS" ColumnName="MAIL_ENS" />
+                <ScalarProperty Name="CODE_GRADE_ENTREE" ColumnName="CODE_GRADE_ENTREE" />
+                <ScalarProperty Name="LIB_GRADE_ENTREE" ColumnName="LIB_GRADE_ENTREE" />
+                <ScalarProperty Name="CODE_GRADE_ACTUEL" ColumnName="CODE_GRADE_ACTUEL" />
+                <ScalarProperty Name="LIB_GRADE_ACTUELLE" ColumnName="LIB_GRADE_ACTUELLE" />
+                <ScalarProperty Name="ORGANISME" ColumnName="ORGANISME" />
+                <ScalarProperty Name="PWD_INIT" ColumnName="PWD_INIT" />
+                <ScalarProperty Name="CODE_DEPT" ColumnName="CODE_DEPT" />
+                <ScalarProperty Name="CHEF_DEPT" ColumnName="CHEF_DEPT" />
+                <ScalarProperty Name="CODE_ENS_EDUSERV" ColumnName="CODE_ENS_EDUSERV" />
+                <ScalarProperty Name="NOM" ColumnName="NOM" />
+                <ScalarProperty Name="PNOM" ColumnName="PNOM" />
+                <ScalarProperty Name="CODE_MAT" ColumnName="CODE_MAT" />
+                <ScalarProperty Name="PHOTO2" ColumnName="PHOTO2" />
+                <ScalarProperty Name="DIPLOME" ColumnName="DIPLOME" />
+                <ScalarProperty Name="EDE_ROLE" ColumnName="EDE_ROLE" />
+                <ScalarProperty Name="COORDINATEUR_OPTS" ColumnName="COORDINATEUR_OPTS" />
+                <ScalarProperty Name="CODE_OPTION" ColumnName="CODE_OPTION" />
+                <ScalarProperty Name="RESP_PI" ColumnName="RESP_PI" />
+                <ScalarProperty Name="RESP_STAGE" ColumnName="RESP_STAGE" />
+                <ScalarProperty Name="CODE_PI" ColumnName="CODE_PI" />
+                <ScalarProperty Name="CODE_STAGE" ColumnName="CODE_STAGE" />
+                <ScalarProperty Name="DATE_MODIFY_JWT_PWD" ColumnName="DATE_MODIFY_JWT_PWD" />
+                <ScalarProperty Name="PWD_JWT_ENSEIGNANT" ColumnName="PWD_JWT_ENSEIGNANT" />
+                <ScalarProperty Name="ETAT_FROM_PE" ColumnName="ETAT_FROM_PE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
