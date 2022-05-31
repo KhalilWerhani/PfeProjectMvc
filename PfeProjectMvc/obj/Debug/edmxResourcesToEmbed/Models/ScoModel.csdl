@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ScoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ESP_ENSEIGNANT">
+    <Key>
+      <PropertyRef Name="ID_ENS" />
+    </Key>
+    <Property Name="ID_ENS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOM_ENS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TYPE_ENS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_REC" Type="DateTime" />
+    <Property Name="NIVEAU" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_SAISIE" Type="DateTime" />
+    <Property Name="DATE_DERN_MODIF" Type="DateTime" />
+    <Property Name="ETAT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVATION" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="PWD_ENS" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PRENOM_ENS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CIN" Type="Int32" />
+    <Property Name="SEXE_ENS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ETAT_CIVIL_ENS" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TEL1" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="TEL2" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="CNSS_ENS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DN_ENS" Type="DateTime" />
+    <Property Name="DE_ENS" Type="DateTime" />
+    <Property Name="DS_ENS" Type="DateTime" />
+    <Property Name="IMAGE" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CHEFCOMITE" Type="Int32" />
+    <Property Name="COMITE_ID_GRP" Type="Int32" />
+    <Property Name="FK_CMT" Type="Int32" />
+    <Property Name="TYPE_UP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="UP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_DEB_UP" Type="DateTime" />
+    <Property Name="MAIL_ENS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_GRADE_ENTREE" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="LIB_GRADE_ENTREE" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_GRADE_ACTUEL" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="LIB_GRADE_ACTUELLE" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="ORGANISME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PWD_INIT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_DEPT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CHEF_DEPT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_ENS_EDUSERV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NOM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PNOM" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_MAT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PHOTO2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DIPLOME" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="EDE_ROLE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="COORDINATEUR_OPTS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_OPTION" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RESP_PI" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RESP_STAGE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_PI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_STAGE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_MODIFY_JWT_PWD" Type="DateTime" />
+    <Property Name="PWD_JWT_ENSEIGNANT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ETAT_FROM_PE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Sco_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" />
+  </EntityContainer>
+</Schema>
