@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScoModelStoreContainer" CdmEntityContainer="Sco_Entities">
+    <EntitySetMapping Name="ESP_ENSEIGNANT">
+      <EntityTypeMapping TypeName="ScoModel.ESP_ENSEIGNANT">
+        <MappingFragment StoreEntitySet="ESP_ENSEIGNANT">
+          <ScalarProperty Name="ID_ENS" ColumnName="ID_ENS" />
+          <ScalarProperty Name="NOM_ENS" ColumnName="NOM_ENS" />
+          <ScalarProperty Name="TYPE_ENS" ColumnName="TYPE_ENS" />
+          <ScalarProperty Name="DATE_REC" ColumnName="DATE_REC" />
+          <ScalarProperty Name="NIVEAU" ColumnName="NIVEAU" />
+          <ScalarProperty Name="DATE_SAISIE" ColumnName="DATE_SAISIE" />
+          <ScalarProperty Name="DATE_DERN_MODIF" ColumnName="DATE_DERN_MODIF" />
+          <ScalarProperty Name="ETAT" ColumnName="ETAT" />
+          <ScalarProperty Name="OBSERVATION" ColumnName="OBSERVATION" />
+          <ScalarProperty Name="PWD_ENS" ColumnName="PWD_ENS" />
+          <ScalarProperty Name="PRENOM_ENS" ColumnName="PRENOM_ENS" />
+          <ScalarProperty Name="CIN" ColumnName="CIN" />
+          <ScalarProperty Name="SEXE_ENS" ColumnName="SEXE_ENS" />
+          <ScalarProperty Name="ETAT_CIVIL_ENS" ColumnName="ETAT_CIVIL_ENS" />
+          <ScalarProperty Name="TEL1" ColumnName="TEL1" />
+          <ScalarProperty Name="TEL2" ColumnName="TEL2" />
+          <ScalarProperty Name="CNSS_ENS" ColumnName="CNSS_ENS" />
+          <ScalarProperty Name="DN_ENS" ColumnName="DN_ENS" />
+          <ScalarProperty Name="DE_ENS" ColumnName="DE_ENS" />
+          <ScalarProperty Name="DS_ENS" ColumnName="DS_ENS" />
+          <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+          <ScalarProperty Name="CHEFCOMITE" ColumnName="CHEFCOMITE" />
+          <ScalarProperty Name="COMITE_ID_GRP" ColumnName="COMITE_ID_GRP" />
+          <ScalarProperty Name="FK_CMT" ColumnName="FK_CMT" />
+          <ScalarProperty Name="TYPE_UP" ColumnName="TYPE_UP" />
+          <ScalarProperty Name="UP" ColumnName="UP" />
+          <ScalarProperty Name="DATE_DEB_UP" ColumnName="DATE_DEB_UP" />
+          <ScalarProperty Name="MAIL_ENS" ColumnName="MAIL_ENS" />
+          <ScalarProperty Name="CODE_GRADE_ENTREE" ColumnName="CODE_GRADE_ENTREE" />
+          <ScalarProperty Name="LIB_GRADE_ENTREE" ColumnName="LIB_GRADE_ENTREE" />
+          <ScalarProperty Name="CODE_GRADE_ACTUEL" ColumnName="CODE_GRADE_ACTUEL" />
+          <ScalarProperty Name="LIB_GRADE_ACTUELLE" ColumnName="LIB_GRADE_ACTUELLE" />
+          <ScalarProperty Name="ORGANISME" ColumnName="ORGANISME" />
+          <ScalarProperty Name="PWD_INIT" ColumnName="PWD_INIT" />
+          <ScalarProperty Name="CODE_DEPT" ColumnName="CODE_DEPT" />
+          <ScalarProperty Name="CHEF_DEPT" ColumnName="CHEF_DEPT" />
+          <ScalarProperty Name="CODE_ENS_EDUSERV" ColumnName="CODE_ENS_EDUSERV" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="PNOM" ColumnName="PNOM" />
+          <ScalarProperty Name="CODE_MAT" ColumnName="CODE_MAT" />
+          <ScalarProperty Name="PHOTO2" ColumnName="PHOTO2" />
+          <ScalarProperty Name="DIPLOME" ColumnName="DIPLOME" />
+          <ScalarProperty Name="EDE_ROLE" ColumnName="EDE_ROLE" />
+          <ScalarProperty Name="COORDINATEUR_OPTS" ColumnName="COORDINATEUR_OPTS" />
+          <ScalarProperty Name="CODE_OPTION" ColumnName="CODE_OPTION" />
+          <ScalarProperty Name="RESP_PI" ColumnName="RESP_PI" />
+          <ScalarProperty Name="RESP_STAGE" ColumnName="RESP_STAGE" />
+          <ScalarProperty Name="CODE_PI" ColumnName="CODE_PI" />
+          <ScalarProperty Name="CODE_STAGE" ColumnName="CODE_STAGE" />
+          <ScalarProperty Name="DATE_MODIFY_JWT_PWD" ColumnName="DATE_MODIFY_JWT_PWD" />
+          <ScalarProperty Name="PWD_JWT_ENSEIGNANT" ColumnName="PWD_JWT_ENSEIGNANT" />
+          <ScalarProperty Name="ETAT_FROM_PE" ColumnName="ETAT_FROM_PE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

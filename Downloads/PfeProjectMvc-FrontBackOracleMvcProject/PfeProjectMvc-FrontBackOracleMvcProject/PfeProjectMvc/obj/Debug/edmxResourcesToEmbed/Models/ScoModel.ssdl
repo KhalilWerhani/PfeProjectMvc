@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ScoModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ESP_ENSEIGNANT">
+    <Key>
+      <PropertyRef Name="ID_ENS" />
+    </Key>
+    <Property Name="ID_ENS" Type="varchar2" MaxLength="10" Nullable="false" />
+    <Property Name="NOM_ENS" Type="varchar2" MaxLength="100" />
+    <Property Name="TYPE_ENS" Type="varchar2" MaxLength="1" />
+    <Property Name="DATE_REC" Type="date" />
+    <Property Name="NIVEAU" Type="varchar2" MaxLength="2" />
+    <Property Name="DATE_SAISIE" Type="date" />
+    <Property Name="DATE_DERN_MODIF" Type="date" />
+    <Property Name="ETAT" Type="varchar2" MaxLength="1" />
+    <Property Name="OBSERVATION" Type="varchar2" MaxLength="300" />
+    <Property Name="PWD_ENS" Type="varchar2" MaxLength="150" />
+    <Property Name="PRENOM_ENS" Type="varchar2" MaxLength="30" />
+    <Property Name="CIN" Type="number" Precision="8" Scale="0" />
+    <Property Name="SEXE_ENS" Type="varchar2" MaxLength="1" />
+    <Property Name="ETAT_CIVIL_ENS" Type="varchar2" MaxLength="5" />
+    <Property Name="TEL1" Type="varchar2" MaxLength="11" />
+    <Property Name="TEL2" Type="varchar2" MaxLength="11" />
+    <Property Name="CNSS_ENS" Type="varchar2" MaxLength="20" />
+    <Property Name="DN_ENS" Type="date" />
+    <Property Name="DE_ENS" Type="date" />
+    <Property Name="DS_ENS" Type="date" />
+    <Property Name="IMAGE" Type="blob" />
+    <Property Name="CHEFCOMITE" Type="number" Precision="10" Scale="0" />
+    <Property Name="COMITE_ID_GRP" Type="number" Precision="10" Scale="0" />
+    <Property Name="FK_CMT" Type="number" Precision="10" Scale="0" />
+    <Property Name="TYPE_UP" Type="varchar2" MaxLength="1" />
+    <Property Name="UP" Type="varchar2" MaxLength="20" />
+    <Property Name="DATE_DEB_UP" Type="date" />
+    <Property Name="MAIL_ENS" Type="varchar2" MaxLength="50" />
+    <Property Name="CODE_GRADE_ENTREE" Type="varchar2" MaxLength="3" />
+    <Property Name="LIB_GRADE_ENTREE" Type="varchar2" MaxLength="300" />
+    <Property Name="CODE_GRADE_ACTUEL" Type="varchar2" MaxLength="4" />
+    <Property Name="LIB_GRADE_ACTUELLE" Type="varchar2" MaxLength="300" />
+    <Property Name="ORGANISME" Type="varchar2" MaxLength="1" />
+    <Property Name="PWD_INIT" Type="varchar2" MaxLength="10" />
+    <Property Name="CODE_DEPT" Type="varchar2" MaxLength="2" />
+    <Property Name="CHEF_DEPT" Type="varchar2" MaxLength="1" />
+    <Property Name="CODE_ENS_EDUSERV" Type="varchar2" MaxLength="10" />
+    <Property Name="NOM" Type="varchar2" MaxLength="30" />
+    <Property Name="PNOM" Type="varchar2" MaxLength="30" />
+    <Property Name="CODE_MAT" Type="varchar2" MaxLength="15" />
+    <Property Name="PHOTO2" Type="blob" />
+    <Property Name="DIPLOME" Type="varchar2" MaxLength="2" />
+    <Property Name="EDE_ROLE" Type="varchar2" MaxLength="255" />
+    <Property Name="COORDINATEUR_OPTS" Type="varchar2" MaxLength="1" />
+    <Property Name="CODE_OPTION" Type="varchar2" MaxLength="10" />
+    <Property Name="RESP_PI" Type="varchar2" MaxLength="1" />
+    <Property Name="RESP_STAGE" Type="varchar2" MaxLength="1" />
+    <Property Name="CODE_PI" Type="varchar2" MaxLength="10" />
+    <Property Name="CODE_STAGE" Type="varchar2" MaxLength="2" />
+    <Property Name="DATE_MODIFY_JWT_PWD" Type="date" />
+    <Property Name="PWD_JWT_ENSEIGNANT" Type="varchar2" MaxLength="100" />
+    <Property Name="ETAT_FROM_PE" Type="varchar2" MaxLength="2" />
+  </EntityType>
+  <EntityContainer Name="ScoModelStoreContainer">
+    <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" Schema="SCO" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

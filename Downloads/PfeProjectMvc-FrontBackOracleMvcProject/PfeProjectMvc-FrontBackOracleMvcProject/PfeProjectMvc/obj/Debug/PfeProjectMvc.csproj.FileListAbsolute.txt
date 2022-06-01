@@ -1,0 +1,118 @@
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.csprojResolveAssemblyReference.cache
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\ApplicationInsights.config
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\csc.exe
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\vbc.exe
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\PfeProjectMvc.dll.config
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\PfeProjectMvc.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\PfeProjectMvc.pdb
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Antlr3.Runtime.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\EntityFramework.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.Web.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.ApplicationInsights.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Newtonsoft.Json.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Oracle.ManagedDataAccess.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Helpers.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Mvc.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Optimization.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Razor.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\WebGrease.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\EntityFramework.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.Web.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.ApplicationInsights.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Helpers.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Mvc.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Optimization.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.Razor.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Antlr3.Runtime.pdb
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Newtonsoft.Json.xml
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.dll
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.pdb
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\ApplicationInsights.config
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\csc.exe
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\vbc.exe
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\PfeProjectMvc.dll.config
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\PfeProjectMvc.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\PfeProjectMvc.pdb
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Antlr3.Runtime.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\EntityFramework.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.Web.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.ApplicationInsights.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Newtonsoft.Json.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Oracle.ManagedDataAccess.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Helpers.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Mvc.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Optimization.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Razor.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\WebGrease.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\EntityFramework.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.Web.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.ApplicationInsights.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Helpers.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Mvc.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Optimization.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.Razor.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Antlr3.Runtime.pdb
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\bin\Newtonsoft.Json.xml
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\obj\Debug\PfeProjectMvc.csprojResolveAssemblyReference.cache
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\obj\Debug\PfeProjectMvc.dll
+C:\Users\RANIA\Downloads\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc-FrontBackOracleMvcProject\PfeProjectMvc\obj\Debug\PfeProjectMvc.pdb
