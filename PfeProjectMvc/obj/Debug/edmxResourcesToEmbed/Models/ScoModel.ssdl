@@ -1,5 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ScoModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CONGE_LV">
+    <Key>
+      <PropertyRef Name="ID_CONG" />
+    </Key>
+    <Property Name="ID_CONG" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOM" Type="varchar2" MaxLength="4000" />
+    <Property Name="PRENOM" Type="varchar2" MaxLength="4000" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="4000" />
+    <Property Name="MOTIF_CONGE" Type="varchar2" MaxLength="4000" />
+    <Property Name="DATE_DEP" Type="date" />
+    <Property Name="DATE_RET" Type="date" />
+    <Property Name="TELEPHONE" Type="number" Precision="38" Scale="0" />
+    <Property Name="TYPE_CONGE" Type="varchar2" MaxLength="4000" />
+    <Property Name="STATUT" Type="varchar2" MaxLength="4000" />
+  </EntityType>
   <EntityType Name="ESP_ENSEIGNANT">
     <Key>
       <PropertyRef Name="ID_ENS" />
@@ -57,7 +72,24 @@
     <Property Name="PWD_JWT_ENSEIGNANT" Type="varchar2" MaxLength="100" />
     <Property Name="ETAT_FROM_PE" Type="varchar2" MaxLength="2" />
   </EntityType>
+  <EntityType Name="MISSION_LV">
+    <Key>
+      <PropertyRef Name="ID_MISS" />
+    </Key>
+    <Property Name="ID_MISS" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOM" Type="varchar2" MaxLength="4000" />
+    <Property Name="PRENOM" Type="varchar2" MaxLength="4000" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="4000" />
+    <Property Name="FONCTION" Type="varchar2" MaxLength="4000" />
+    <Property Name="MOTIF_MISS" Type="varchar2" MaxLength="4000" />
+    <Property Name="DATE_DEP" Type="date" />
+    <Property Name="DATE_RET" Type="date" />
+    <Property Name="TELEPHONE" Type="number" Precision="38" Scale="0" />
+    <Property Name="STATUT" Type="varchar2" MaxLength="4000" />
+  </EntityType>
   <EntityContainer Name="ScoModelStoreContainer">
+    <EntitySet Name="CONGE_LV" EntityType="Self.CONGE_LV" Schema="SCO" store:Type="Tables" />
     <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" Schema="SCO" store:Type="Tables" />
+    <EntitySet Name="MISSION_LV" EntityType="Self.MISSION_LV" Schema="SCO" store:Type="Tables" />
   </EntityContainer>
 </Schema>

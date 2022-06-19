@@ -59,5 +59,37 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="MISSION_LV">
+      <EntityTypeMapping TypeName="ScoModel.MISSION_LV">
+        <MappingFragment StoreEntitySet="MISSION_LV">
+          <ScalarProperty Name="STATUT" ColumnName="STATUT" />
+          <ScalarProperty Name="TELEPHONE" ColumnName="TELEPHONE" />
+          <ScalarProperty Name="DATE_RET" ColumnName="DATE_RET" />
+          <ScalarProperty Name="DATE_DEP" ColumnName="DATE_DEP" />
+          <ScalarProperty Name="MOTIF_MISS" ColumnName="MOTIF_MISS" />
+          <ScalarProperty Name="FONCTION" ColumnName="FONCTION" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="ID_MISS" ColumnName="ID_MISS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONGE_LV">
+      <EntityTypeMapping TypeName="ScoModel.CONGE_LV">
+        <MappingFragment StoreEntitySet="CONGE_LV">
+          <ScalarProperty Name="STATUT" ColumnName="STATUT" />
+          <ScalarProperty Name="TYPE_CONGE" ColumnName="TYPE_CONGE" />
+          <ScalarProperty Name="TELEPHONE" ColumnName="TELEPHONE" />
+          <ScalarProperty Name="DATE_RET" ColumnName="DATE_RET" />
+          <ScalarProperty Name="DATE_DEP" ColumnName="DATE_DEP" />
+          <ScalarProperty Name="MOTIF_CONGE" ColumnName="MOTIF_CONGE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="ID_CONG" ColumnName="ID_CONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

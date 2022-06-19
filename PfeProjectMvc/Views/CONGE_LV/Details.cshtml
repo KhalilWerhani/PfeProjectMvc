@@ -1,0 +1,90 @@
+﻿@model PfeProjectMvc.Models.CONGE_LV
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CONGE_LV</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NOM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PRENOM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRENOM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MOTIF_CONGE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MOTIF_CONGE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DATE_DEP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DATE_DEP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DATE_RET)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DATE_RET)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TELEPHONE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TELEPHONE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TYPE_CONGE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TYPE_CONGE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STATUT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STATUT)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_CONG }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

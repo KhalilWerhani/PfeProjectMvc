@@ -59,5 +59,37 @@
   </EntityType>
   <EntityContainer Name="Sco_Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" />
+    <EntitySet Name="MISSION_LV" EntityType="ScoModel.MISSION_LV" />
+    <EntitySet Name="CONGE_LV" EntityType="ScoModel.CONGE_LV" />
   </EntityContainer>
+  <EntityType Name="MISSION_LV">
+    <Key>
+      <PropertyRef Name="ID_MISS" />
+    </Key>
+    <Property Name="ID_MISS" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PRENOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FONCTION" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MOTIF_MISS" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_DEP" Type="DateTime" />
+    <Property Name="DATE_RET" Type="DateTime" />
+    <Property Name="TELEPHONE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STATUT" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CONGE_LV">
+    <Key>
+      <PropertyRef Name="ID_CONG" />
+    </Key>
+    <Property Name="ID_CONG" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="PRENOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="MOTIF_CONGE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_DEP" Type="DateTime" />
+    <Property Name="DATE_RET" Type="DateTime" />
+    <Property Name="TELEPHONE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TYPE_CONGE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="STATUT" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

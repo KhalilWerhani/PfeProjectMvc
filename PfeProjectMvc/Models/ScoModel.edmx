@@ -4,7 +4,22 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ScoModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ScoModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CONGE_LV">
+          <Key>
+            <PropertyRef Name="ID_CONG" />
+          </Key>
+          <Property Name="ID_CONG" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOM" Type="varchar2" MaxLength="4000" />
+          <Property Name="PRENOM" Type="varchar2" MaxLength="4000" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="4000" />
+          <Property Name="MOTIF_CONGE" Type="varchar2" MaxLength="4000" />
+          <Property Name="DATE_DEP" Type="date" />
+          <Property Name="DATE_RET" Type="date" />
+          <Property Name="TELEPHONE" Type="number" Precision="38" Scale="0" />
+          <Property Name="TYPE_CONGE" Type="varchar2" MaxLength="4000" />
+          <Property Name="STATUT" Type="varchar2" MaxLength="4000" />
+        </EntityType>
         <EntityType Name="ESP_ENSEIGNANT">
           <Key>
             <PropertyRef Name="ID_ENS" />
@@ -62,11 +77,27 @@
           <Property Name="PWD_JWT_ENSEIGNANT" Type="varchar2" MaxLength="100" />
           <Property Name="ETAT_FROM_PE" Type="varchar2" MaxLength="2" />
         </EntityType>
+        <EntityType Name="MISSION_LV">
+          <Key>
+            <PropertyRef Name="ID_MISS" />
+          </Key>
+          <Property Name="ID_MISS" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOM" Type="varchar2" MaxLength="4000" />
+          <Property Name="PRENOM" Type="varchar2" MaxLength="4000" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="4000" />
+          <Property Name="FONCTION" Type="varchar2" MaxLength="4000" />
+          <Property Name="MOTIF_MISS" Type="varchar2" MaxLength="4000" />
+          <Property Name="DATE_DEP" Type="date" />
+          <Property Name="DATE_RET" Type="date" />
+          <Property Name="TELEPHONE" Type="number" Precision="38" Scale="0" />
+          <Property Name="STATUT" Type="varchar2" MaxLength="4000" />
+        </EntityType>
         <EntityContainer Name="ScoModelStoreContainer">
+          <EntitySet Name="CONGE_LV" EntityType="Self.CONGE_LV" Schema="SCO" store:Type="Tables" />
           <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" Schema="SCO" store:Type="Tables" />
+          <EntitySet Name="MISSION_LV" EntityType="Self.MISSION_LV" Schema="SCO" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ScoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -129,7 +160,39 @@
         </EntityType>
         <EntityContainer Name="Sco_Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="ESP_ENSEIGNANT" EntityType="Self.ESP_ENSEIGNANT" />
+          <EntitySet Name="MISSION_LV" EntityType="ScoModel.MISSION_LV" />
+          <EntitySet Name="CONGE_LV" EntityType="ScoModel.CONGE_LV" />
         </EntityContainer>
+        <EntityType Name="MISSION_LV">
+          <Key>
+            <PropertyRef Name="ID_MISS" />
+          </Key>
+          <Property Name="ID_MISS" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+          <Property Name="NOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="PRENOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="FONCTION" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="MOTIF_MISS" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_DEP" Type="DateTime" />
+          <Property Name="DATE_RET" Type="DateTime" />
+          <Property Name="TELEPHONE" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="STATUT" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="CONGE_LV">
+          <Key>
+            <PropertyRef Name="ID_CONG" />
+          </Key>
+          <Property Name="ID_CONG" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+          <Property Name="NOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="PRENOM" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="MOTIF_CONGE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_DEP" Type="DateTime" />
+          <Property Name="DATE_RET" Type="DateTime" />
+          <Property Name="TELEPHONE" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="TYPE_CONGE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="STATUT" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -191,6 +254,38 @@
                 <ScalarProperty Name="DATE_MODIFY_JWT_PWD" ColumnName="DATE_MODIFY_JWT_PWD" />
                 <ScalarProperty Name="PWD_JWT_ENSEIGNANT" ColumnName="PWD_JWT_ENSEIGNANT" />
                 <ScalarProperty Name="ETAT_FROM_PE" ColumnName="ETAT_FROM_PE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MISSION_LV">
+            <EntityTypeMapping TypeName="ScoModel.MISSION_LV">
+              <MappingFragment StoreEntitySet="MISSION_LV">
+                <ScalarProperty Name="STATUT" ColumnName="STATUT" />
+                <ScalarProperty Name="TELEPHONE" ColumnName="TELEPHONE" />
+                <ScalarProperty Name="DATE_RET" ColumnName="DATE_RET" />
+                <ScalarProperty Name="DATE_DEP" ColumnName="DATE_DEP" />
+                <ScalarProperty Name="MOTIF_MISS" ColumnName="MOTIF_MISS" />
+                <ScalarProperty Name="FONCTION" ColumnName="FONCTION" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+                <ScalarProperty Name="NOM" ColumnName="NOM" />
+                <ScalarProperty Name="ID_MISS" ColumnName="ID_MISS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CONGE_LV">
+            <EntityTypeMapping TypeName="ScoModel.CONGE_LV">
+              <MappingFragment StoreEntitySet="CONGE_LV">
+                <ScalarProperty Name="STATUT" ColumnName="STATUT" />
+                <ScalarProperty Name="TYPE_CONGE" ColumnName="TYPE_CONGE" />
+                <ScalarProperty Name="TELEPHONE" ColumnName="TELEPHONE" />
+                <ScalarProperty Name="DATE_RET" ColumnName="DATE_RET" />
+                <ScalarProperty Name="DATE_DEP" ColumnName="DATE_DEP" />
+                <ScalarProperty Name="MOTIF_CONGE" ColumnName="MOTIF_CONGE" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+                <ScalarProperty Name="NOM" ColumnName="NOM" />
+                <ScalarProperty Name="ID_CONG" ColumnName="ID_CONG" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

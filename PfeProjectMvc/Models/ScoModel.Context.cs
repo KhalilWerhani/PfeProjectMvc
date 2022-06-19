@@ -26,5 +26,7 @@ namespace PfeProjectMvc.Models
         }
     
         public virtual DbSet<ESP_ENSEIGNANT> ESP_ENSEIGNANT { get; set; }
+        public virtual DbSet<MISSION_LV> MISSION_LV { get; set; }
+        public virtual DbSet<CONGE_LV> CONGE_LV { get; set; }
     }
 }

@@ -1,4 +1,3 @@
-C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.csprojResolveAssemblyReference.cache
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\ApplicationInsights.config
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\csc.exe
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -57,3 +56,4 @@ C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMv
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\bin\Newtonsoft.Json.xml
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.dll
 C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.pdb
+C:\Users\KHALIL\documents\visual studio 2015\Projects\PfeProjectMvc\PfeProjectMvc\obj\Debug\PfeProjectMvc.csprojResolveAssemblyReference.cache
